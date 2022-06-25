@@ -42,12 +42,14 @@
 #+8::MoveCurrentWindowToDesktop(8)
 #+9::MoveCurrentWindowToDesktop(9)
 
-#q::quitWindow()
+#+q::quitWindow()
 
-;#f::toggleMaximize()
-
-; WSL -- create shortcut by dragging from start menu (can't be from a search result)
-#Enter::Run, C:\window-mover.git\Debian GNU-Linux
+#f::toggleMaximize()
+#w::toggleMaximize()
 
 ; PowerShell
-#+Enter::Run, powershell
+#Enter::Run, powershell
+
+; Telegram
+#t::Run, "C:\Users\alexander.yashin\AppData\Roaming\Telegram Desktop\Telegram.exe"
+
